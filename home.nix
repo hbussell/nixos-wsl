@@ -70,6 +70,7 @@
     shellcheck
     shfmt
     statix # nix
+    ripgrep
   ];
 in {
   imports = [
