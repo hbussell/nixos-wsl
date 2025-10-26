@@ -153,3 +153,6 @@ this project uses a flat layout without any nesting or modularization.
   - NixOS options are set here
 - `home.nix` is where packages, dotfiles, terminal tools, environment variables
   and aliases are configured
+
+
+## Usage
