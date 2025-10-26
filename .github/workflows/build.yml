@@ -28,7 +28,7 @@ jobs:
       - name: Build tarball
         run: |
           nix_bin=$(which nix)
-          sudo nix run .#nixosConfigurations.nixos.system.build.tarballBuilder
+          sudo $nix_bin run .#nixosConfigurations.nixos.system.build.tarballBuilder
 
 
       - name: Upload tarball
